@@ -121,7 +121,7 @@ class customInput:
 
 
 
-    #finds an image on the screen and returns a pyautogui Bounds object (x, y, length, width) or False if not found
+    #finds an image on the screen and returns a Box object (x, y, length, width) or False
     """
     description:    image name without the extension
     confidence:     specify how precise the image needs to match
