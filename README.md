@@ -77,7 +77,7 @@ controller = customInput(click_delay=0.5)   #wait 0.5s before clicking
 controller.click("desktop_button")
 controller.wait_until("desktop_loaded_indicator")
 controller.click(controller.wait_until("open_application"), wait=5)
-#waits 5 seconds after funciton call
+#waits 5 seconds after function call
 
 controller.write("This writes as if coming from the keyboard!", end="enter")
 # automatic interval of ~0.1 between keypresses
